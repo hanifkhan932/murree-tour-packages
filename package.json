@@ -1,0 +1,23 @@
+{
+  "name": "murree-tour-packages",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "^1.6.5",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250926.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.38.0"
+  }
+}
